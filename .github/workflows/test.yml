@@ -1,0 +1,30 @@
+---
+name: test
+
+"on": push
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      # Install requirements
+      # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      - name: Install requirements
+        run: SKIP_VENV=1 make deps
+
+      # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      # Build and test
+      # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      - name: Build
+        run: SKIP_VENV=1 make build
+
+      - name: Test
+        run: make test
