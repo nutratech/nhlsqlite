@@ -39,13 +39,9 @@ CREATE TABLE game_type (
   description text NOT NULL UNIQUE
 );
 
--- Insert game types
-BEGIN TRANSACTION;
-INSERT INTO game_type (type, description)
-  VALUES ('R', 'Regular Season');
-INSERT INTO game_type (type, description)
-  VALUES ('P', 'Playoff');
-COMMIT;
+CREATE TABLE game_outcome (
+  outcome text -- Regulation
+);
 
 CREATE TABLE game (
   game_id integer PRIMARY KEY, -- the NHL's ID (e.g. 2015020663)
@@ -56,16 +52,17 @@ CREATE TABLE game (
   team_abbrev_home text NOT NULL,
   goals_away int,
   goals_home int,
-  outcome text DEFAULT 'SCHEDULED',
+  game_outcome text,
   venue text NOT NULL,
   FOREIGN KEY (game_type) REFERENCES game_type (type) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (team_abbrev_away) REFERENCES team (abbrev) ON UPDATE CASCADE ON DELETE CASCADE,
-  FOREIGN KEY (team_abbrev_home) REFERENCES team (abbrev) ON UPDATE CASCADE ON DELETE CASCADE
+  FOREIGN KEY (team_abbrev_home) REFERENCES team (abbrev) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (game_outcome) REFERENCES game_outcome (outcome) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- Create indexes on abbreviation and outcome columns
 BEGIN TRANSACTION;
 CREATE INDEX game_index_team_away ON game (team_abbrev_away);
 CREATE INDEX game_index_team_home ON game (team_abbrev_home);
-CREATE INDEX game_index_outcome ON game (outcome);
+CREATE INDEX game_index_outcome ON game (game_outcome);
 COMMIT;

@@ -43,6 +43,10 @@ def build_db(verbose: bool = False) -> bool:
         # Loop over CSV files
         with open(file_path_full, encoding="utf-8") as csv_file:
             dict_reader = csv.DictReader(csv_file)
+            # Skip empty CSV files
+            if not dict_reader.fieldnames:
+                print(f"    WARN: empty CSV? {file_path_full}")
+                continue
             values = ",".join("?" * len(dict_reader.fieldnames or []))
             reader = csv.reader(csv_file)
             # pylint: disable=consider-using-f-string
