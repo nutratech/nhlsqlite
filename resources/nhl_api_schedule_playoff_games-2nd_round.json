@@ -1,0 +1,950 @@
+{
+  "nextStartDate": "2023-05-07",
+  "previousStartDate": "2023-04-23",
+  "gameWeek": [
+    {
+      "date": "2023-04-30",
+      "dayAbbrev": "SUN",
+      "numberOfGames": 2,
+      "games": [
+        {
+          "id": 2022030117,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "TD Garden"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-04-30T22:30:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-04:00",
+          "venueTimezone": "US/Eastern",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 13,
+            "placeName": {
+              "default": "Florida",
+              "fr": "Floride"
+            },
+            "abbrev": "FLA",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
+            "awaySplitSquad": false,
+            "score": 4
+          },
+          "homeTeam": {
+            "id": 6,
+            "placeName": {
+              "default": "Boston"
+            },
+            "abbrev": "BOS",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_20082009-20222023_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_20082009-20222023_dark.svg",
+            "homeSplitSquad": false,
+            "score": 3
+          },
+          "periodDescriptor": {
+            "number": 4,
+            "periodType": "OT"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "OT"
+          },
+          "winningGoalie": {
+            "playerId": 8475683,
+            "firstInitial": {
+              "default": "S."
+            },
+            "lastName": {
+              "default": "Bobrovsky",
+              "cs": "Bobrovskij",
+              "sk": "Bobrovskij"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8477409,
+            "firstInitial": {
+              "default": "C."
+            },
+            "lastName": {
+              "default": "Verhaeghe"
+            }
+          },
+          "seriesStatus": {
+            "round": 1,
+            "gameNumberOfSeries": 7,
+            "roundAbbrev": "R1",
+            "roundCode": "1st_round",
+            "seriesLetter": "A",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 6,
+            "topSeedWins": 3,
+            "bottomSeedTeamId": 13,
+            "bottomSeedWins": 4,
+            "awayTeamWins": 4,
+            "homeTeamWins": 3
+          },
+          "threeMinRecap": "/video/recap-fla-4-bos-3-f-ot-344047120",
+          "gameCenterLink": "/gamecenter/fla-vs-bos/2023/04/30/2022030117"
+        },
+        {
+          "id": 2022030157,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "Ball Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-01T01:30:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-06:00",
+          "venueTimezone": "America/Denver",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 55,
+            "placeName": {
+              "default": "Seattle"
+            },
+            "abbrev": "SEA",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+            "awaySplitSquad": false,
+            "score": 2
+          },
+          "homeTeam": {
+            "id": 21,
+            "placeName": {
+              "default": "Colorado"
+            },
+            "abbrev": "COL",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
+            "homeSplitSquad": false,
+            "score": 1
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8475831,
+            "firstInitial": {
+              "default": "P."
+            },
+            "lastName": {
+              "default": "Grubauer"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8477416,
+            "firstInitial": {
+              "default": "O."
+            },
+            "lastName": {
+              "default": "Bjorkstrand"
+            }
+          },
+          "seriesStatus": {
+            "round": 1,
+            "gameNumberOfSeries": 7,
+            "roundAbbrev": "R1",
+            "roundCode": "1st_round",
+            "seriesLetter": "E",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 21,
+            "topSeedWins": 3,
+            "bottomSeedTeamId": 55,
+            "bottomSeedWins": 4,
+            "awayTeamWins": 4,
+            "homeTeamWins": 3
+          },
+          "gameCenterLink": "/gamecenter/sea-vs-col/2023/04/30/2022030157"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-01",
+      "dayAbbrev": "MON",
+      "numberOfGames": 1,
+      "games": [
+        {
+          "id": 2022030147,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "Prudential Center"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-02T00:00:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-04:00",
+          "venueTimezone": "US/Eastern",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 3,
+            "placeName": {
+              "default": "Rangers"
+            },
+            "abbrev": "NYR",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+            "awaySplitSquad": false,
+            "score": 0
+          },
+          "homeTeam": {
+            "id": 1,
+            "placeName": {
+              "default": "New Jersey"
+            },
+            "abbrev": "NJD",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+            "homeSplitSquad": false,
+            "score": 4
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8481033,
+            "firstInitial": {
+              "default": "A."
+            },
+            "lastName": {
+              "default": "Schmid"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8479415,
+            "firstInitial": {
+              "default": "M."
+            },
+            "lastName": {
+              "default": "McLeod"
+            }
+          },
+          "seriesStatus": {
+            "round": 1,
+            "gameNumberOfSeries": 7,
+            "roundAbbrev": "R1",
+            "roundCode": "1st_round",
+            "seriesLetter": "D",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 1,
+            "topSeedWins": 4,
+            "bottomSeedTeamId": 3,
+            "bottomSeedWins": 3,
+            "awayTeamWins": 3,
+            "homeTeamWins": 4
+          },
+          "threeMinRecap": "/video/recap-njd-4-nyr-0-344077794",
+          "gameCenterLink": "/gamecenter/nyr-vs-njd/2023/05/01/2022030147"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-02",
+      "dayAbbrev": "TUE",
+      "numberOfGames": 2,
+      "games": [
+        {
+          "id": 2022030211,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "Scotiabank Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-02T23:00:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-04:00",
+          "venueTimezone": "America/Toronto",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 13,
+            "placeName": {
+              "default": "Florida",
+              "fr": "Floride"
+            },
+            "abbrev": "FLA",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
+            "awaySplitSquad": false,
+            "score": 4
+          },
+          "homeTeam": {
+            "id": 10,
+            "placeName": {
+              "default": "Toronto"
+            },
+            "abbrev": "TOR",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+            "homeSplitSquad": false,
+            "score": 2
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8475683,
+            "firstInitial": {
+              "default": "S."
+            },
+            "lastName": {
+              "default": "Bobrovsky",
+              "cs": "Bobrovskij",
+              "sk": "Bobrovskij"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8477409,
+            "firstInitial": {
+              "default": "C."
+            },
+            "lastName": {
+              "default": "Verhaeghe"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 1,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "I",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 10,
+            "topSeedWins": 0,
+            "bottomSeedTeamId": 13,
+            "bottomSeedWins": 1,
+            "awayTeamWins": 1,
+            "homeTeamWins": 0
+          },
+          "threeMinRecap": "/video/recap-fla-4-tor-2-344105984",
+          "gameCenterLink": "/gamecenter/fla-vs-tor/2023/05/02/2022030211"
+        },
+        {
+          "id": 2022030231,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "American Airlines Center"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-03T01:30:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-05:00",
+          "venueTimezone": "US/Central",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 55,
+            "placeName": {
+              "default": "Seattle"
+            },
+            "abbrev": "SEA",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+            "awaySplitSquad": false,
+            "score": 5
+          },
+          "homeTeam": {
+            "id": 25,
+            "placeName": {
+              "default": "Dallas"
+            },
+            "abbrev": "DAL",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+            "homeSplitSquad": false,
+            "score": 4
+          },
+          "periodDescriptor": {
+            "number": 4,
+            "periodType": "OT"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "OT"
+          },
+          "winningGoalie": {
+            "playerId": 8475831,
+            "firstInitial": {
+              "default": "P."
+            },
+            "lastName": {
+              "default": "Grubauer"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8476826,
+            "firstInitial": {
+              "default": "Y."
+            },
+            "lastName": {
+              "default": "Gourde"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 1,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "K",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 25,
+            "topSeedWins": 0,
+            "bottomSeedTeamId": 55,
+            "bottomSeedWins": 1,
+            "awayTeamWins": 1,
+            "homeTeamWins": 0
+          },
+          "threeMinRecap": "/video/recap-sea-5-dal-4-f-ot-344109102",
+          "gameCenterLink": "/gamecenter/sea-vs-dal/2023/05/02/2022030231"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-03",
+      "dayAbbrev": "WED",
+      "numberOfGames": 2,
+      "games": [
+        {
+          "id": 2022030221,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "PNC Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-03T23:00:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-04:00",
+          "venueTimezone": "US/Eastern",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 1,
+            "placeName": {
+              "default": "New Jersey"
+            },
+            "abbrev": "NJD",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+            "awaySplitSquad": false,
+            "score": 1
+          },
+          "homeTeam": {
+            "id": 12,
+            "placeName": {
+              "default": "Carolina",
+              "fr": "Caroline"
+            },
+            "abbrev": "CAR",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+            "homeSplitSquad": false,
+            "score": 5
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8475883,
+            "firstInitial": {
+              "default": "F."
+            },
+            "lastName": {
+              "default": "Andersen"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8482093,
+            "firstInitial": {
+              "default": "S."
+            },
+            "lastName": {
+              "default": "Jarvis"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 1,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "J",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 12,
+            "topSeedWins": 1,
+            "bottomSeedTeamId": 1,
+            "bottomSeedWins": 0,
+            "awayTeamWins": 0,
+            "homeTeamWins": 1
+          },
+          "threeMinRecap": "/video/recap-car-5-njd-1-344132788",
+          "gameCenterLink": "/gamecenter/njd-vs-car/2023/05/03/2022030221"
+        },
+        {
+          "id": 2022030241,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "T-Mobile Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-04T01:30:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-07:00",
+          "venueTimezone": "US/Pacific",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 22,
+            "placeName": {
+              "default": "Edmonton"
+            },
+            "abbrev": "EDM",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
+            "awaySplitSquad": false,
+            "score": 4
+          },
+          "homeTeam": {
+            "id": 54,
+            "placeName": {
+              "default": "Vegas"
+            },
+            "abbrev": "VGK",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+            "homeSplitSquad": false,
+            "score": 6
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8476316,
+            "firstInitial": {
+              "default": "L."
+            },
+            "lastName": {
+              "default": "Brossoit"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8476905,
+            "firstInitial": {
+              "default": "C."
+            },
+            "lastName": {
+              "default": "Stephenson"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 1,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "L",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 54,
+            "topSeedWins": 1,
+            "bottomSeedTeamId": 22,
+            "bottomSeedWins": 0,
+            "awayTeamWins": 0,
+            "homeTeamWins": 1
+          },
+          "threeMinRecap": "/video/recap-vgk-6-edm-4-344140850",
+          "gameCenterLink": "/gamecenter/edm-vs-vgk/2023/05/03/2022030241"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-04",
+      "dayAbbrev": "THU",
+      "numberOfGames": 2,
+      "games": [
+        {
+          "id": 2022030212,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "Scotiabank Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-04T23:00:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-04:00",
+          "venueTimezone": "America/Toronto",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 13,
+            "placeName": {
+              "default": "Florida",
+              "fr": "Floride"
+            },
+            "abbrev": "FLA",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
+            "awaySplitSquad": false,
+            "score": 3
+          },
+          "homeTeam": {
+            "id": 10,
+            "placeName": {
+              "default": "Toronto"
+            },
+            "abbrev": "TOR",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+            "homeSplitSquad": false,
+            "score": 2
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8475683,
+            "firstInitial": {
+              "default": "S."
+            },
+            "lastName": {
+              "default": "Bobrovsky",
+              "cs": "Bobrovskij",
+              "sk": "Bobrovskij"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8478055,
+            "firstInitial": {
+              "default": "G."
+            },
+            "lastName": {
+              "default": "Forsling"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 2,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "I",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 10,
+            "topSeedWins": 0,
+            "bottomSeedTeamId": 13,
+            "bottomSeedWins": 2,
+            "awayTeamWins": 2,
+            "homeTeamWins": 0
+          },
+          "threeMinRecap": "/video/recap-fla-3-tor-2-344162108",
+          "gameCenterLink": "/gamecenter/fla-vs-tor/2023/05/04/2022030212"
+        },
+        {
+          "id": 2022030232,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "American Airlines Center"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-05T01:30:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-05:00",
+          "venueTimezone": "US/Central",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 55,
+            "placeName": {
+              "default": "Seattle"
+            },
+            "abbrev": "SEA",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+            "awaySplitSquad": false,
+            "score": 2
+          },
+          "homeTeam": {
+            "id": 25,
+            "placeName": {
+              "default": "Dallas"
+            },
+            "abbrev": "DAL",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+            "homeSplitSquad": false,
+            "score": 4
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8479979,
+            "firstInitial": {
+              "default": "J."
+            },
+            "lastName": {
+              "default": "Oettinger"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8470794,
+            "firstInitial": {
+              "default": "J."
+            },
+            "lastName": {
+              "default": "Pavelski"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 2,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "K",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 25,
+            "topSeedWins": 1,
+            "bottomSeedTeamId": 55,
+            "bottomSeedWins": 1,
+            "awayTeamWins": 1,
+            "homeTeamWins": 1
+          },
+          "threeMinRecap": "/video/recap-dal-4-sea-2-344167728",
+          "gameCenterLink": "/gamecenter/sea-vs-dal/2023/05/04/2022030232"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-05",
+      "dayAbbrev": "FRI",
+      "numberOfGames": 1,
+      "games": [
+        {
+          "id": 2022030222,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "PNC Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-06T00:00:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-04:00",
+          "venueTimezone": "US/Eastern",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 1,
+            "placeName": {
+              "default": "New Jersey"
+            },
+            "abbrev": "NJD",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+            "awaySplitSquad": false,
+            "score": 1
+          },
+          "homeTeam": {
+            "id": 12,
+            "placeName": {
+              "default": "Carolina",
+              "fr": "Caroline"
+            },
+            "abbrev": "CAR",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+            "homeSplitSquad": false,
+            "score": 6
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8475883,
+            "firstInitial": {
+              "default": "F."
+            },
+            "lastName": {
+              "default": "Andersen"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8480829,
+            "firstInitial": {
+              "default": "J."
+            },
+            "lastName": {
+              "default": "Kotkaniemi"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 2,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "J",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 12,
+            "topSeedWins": 2,
+            "bottomSeedTeamId": 1,
+            "bottomSeedWins": 0,
+            "awayTeamWins": 0,
+            "homeTeamWins": 2
+          },
+          "threeMinRecap": "/video/recap-car-6-njd-1-344184412",
+          "gameCenterLink": "/gamecenter/njd-vs-car/2023/05/05/2022030222"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-06",
+      "dayAbbrev": "SAT",
+      "numberOfGames": 1,
+      "games": [
+        {
+          "id": 2022030242,
+          "season": 20222023,
+          "gameType": 3,
+          "venue": {
+            "default": "T-Mobile Arena"
+          },
+          "neutralSite": false,
+          "startTimeUTC": "2023-05-06T23:00:00Z",
+          "easternUTCOffset": "-04:00",
+          "venueUTCOffset": "-07:00",
+          "venueTimezone": "US/Pacific",
+          "gameState": "OFF",
+          "gameScheduleState": "OK",
+          "tvBroadcasts": [],
+          "awayTeam": {
+            "id": 22,
+            "placeName": {
+              "default": "Edmonton"
+            },
+            "abbrev": "EDM",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
+            "awaySplitSquad": false,
+            "score": 5
+          },
+          "homeTeam": {
+            "id": 54,
+            "placeName": {
+              "default": "Vegas"
+            },
+            "abbrev": "VGK",
+            "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+            "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+            "homeSplitSquad": false,
+            "score": 1
+          },
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8479973,
+            "firstInitial": {
+              "default": "S."
+            },
+            "lastName": {
+              "default": "Skinner"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8480803,
+            "firstInitial": {
+              "default": "E."
+            },
+            "lastName": {
+              "default": "Bouchard"
+            }
+          },
+          "seriesStatus": {
+            "round": 2,
+            "gameNumberOfSeries": 2,
+            "roundAbbrev": "R2",
+            "roundCode": "2nd_round",
+            "seriesLetter": "L",
+            "neededToWin": 4,
+            "length": 7,
+            "topSeedTeamId": 54,
+            "topSeedWins": 1,
+            "bottomSeedTeamId": 22,
+            "bottomSeedWins": 1,
+            "awayTeamWins": 1,
+            "homeTeamWins": 1
+          },
+          "threeMinRecap": "/video/recap-edm-5-vgk-1-344201398",
+          "gameCenterLink": "/gamecenter/edm-vs-vgk/2023/05/06/2022030242"
+        }
+      ]
+    }
+  ],
+  "preSeasonStartDate": "2022-09-24",
+  "regularSeasonStartDate": "2022-10-07",
+  "regularSeasonEndDate": "2023-04-14",
+  "playoffEndDate": "2023-06-13",
+  "numberOfGames": 11
+}
