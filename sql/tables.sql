@@ -23,8 +23,15 @@ CREATE TABLE `version` (
 
 --
 --------------------------------
--- Tables: team
+-- Tables: season, team
 --------------------------------
+-- TODO: partial_season bool
+CREATE TABLE season (
+  season int PRIMARY KEY, -- both years, i.e. 20172018
+  year_start int,
+  year_end int
+);
+
 CREATE TABLE team (
   abbrev text PRIMARY KEY, -- tri_code
   name text NOT NULL UNIQUE
@@ -40,7 +47,7 @@ CREATE TABLE game_type (
 );
 
 CREATE TABLE game_outcome (
-  outcome text -- Regulation
+  outcome text PRIMARY KEY -- Regulation
 );
 
 CREATE TABLE game (
@@ -52,17 +59,18 @@ CREATE TABLE game (
   team_abbrev_home text NOT NULL,
   goals_away int,
   goals_home int,
-  game_outcome text,
+  outcome text,
   venue text NOT NULL,
+  FOREIGN KEY (season) REFERENCES season (season) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (game_type) REFERENCES game_type (type) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (team_abbrev_away) REFERENCES team (abbrev) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (team_abbrev_home) REFERENCES team (abbrev) ON UPDATE CASCADE ON DELETE CASCADE,
-  FOREIGN KEY (game_outcome) REFERENCES game_outcome (outcome) ON UPDATE CASCADE ON DELETE CASCADE
+  FOREIGN KEY (outcome) REFERENCES game_outcome (outcome) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- Create indexes on abbreviation and outcome columns
 BEGIN TRANSACTION;
 CREATE INDEX game_index_team_away ON game (team_abbrev_away);
 CREATE INDEX game_index_team_home ON game (team_abbrev_home);
-CREATE INDEX game_index_outcome ON game (game_outcome);
+CREATE INDEX game_index_outcome ON game (outcome);
 COMMIT;
