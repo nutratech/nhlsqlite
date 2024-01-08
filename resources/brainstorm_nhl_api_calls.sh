@@ -4,6 +4,9 @@ set -x
 
 cd "$(dirname "$0")"
 
+# Get a list of seasons
+curl -X GET "https://api-web.nhle.com/v1/season" | jq | tee nhl_api_seasons.json | wc
+
 # Get games by day (365 calls/year)
 curl https://api-web.nhle.com/v1/schedule/2023-09-23 | jq | tee nhl_api_schedule_daily_league.json | wc
 # output:    3891    6943  115479
