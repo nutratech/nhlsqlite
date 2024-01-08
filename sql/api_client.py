@@ -24,7 +24,11 @@ class ApiClient:
         response = requests.get(
             f"{self.url}/{endpoint}", headers=self.headers, params=params
         )
-        return json.loads(response.text)
+        return dict(json.loads(response.text))
+
+    def get_seasons(self) -> dict:
+        """Get all seasons"""
+        return self.get("seasons")
 
     def get_teams(self) -> dict:
         """Get all teams"""
