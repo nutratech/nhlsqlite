@@ -189,7 +189,7 @@
           "easternUTCOffset": "-05:00",
           "venueUTCOffset": "-06:00",
           "venueTimezone": "US/Central",
-          "gameState": "LIVE",
+          "gameState": "FINAL",
           "gameScheduleState": "OK",
           "tvBroadcasts": [
             {
@@ -220,7 +220,6 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20232024/DAL-radio.m3u8",
             "score": 4
           },
           "homeTeam": {
@@ -232,12 +231,32 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20232024/MIN-radio.m3u8",
             "score": 0
           },
           "periodDescriptor": {
             "number": 3,
             "periodType": "REG"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "REG"
+          },
+          "winningGoalie": {
+            "playerId": 8483575,
+            "firstInitial": {
+              "default": "M."
+            },
+            "lastName": {
+              "default": "Murray"
+            }
+          },
+          "winningGoalScorer": {
+            "playerId": 8478449,
+            "firstInitial": {
+              "default": "R."
+            },
+            "lastName": {
+              "default": "Hintz"
+            }
           },
           "gameCenterLink": "/gamecenter/dal-vs-min/2024/01/08/2023020623"
         },
@@ -291,7 +310,7 @@
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
             "awaySplitSquad": false,
             "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20232024/BOS-radio.m3u8",
-            "score": 1
+            "score": 2
           },
           "homeTeam": {
             "id": 21,
@@ -303,7 +322,7 @@
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
             "homeSplitSquad": false,
             "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20232024/COL-radio.m3u8",
-            "score": 2
+            "score": 3
           },
           "periodDescriptor": {
             "number": 2,
