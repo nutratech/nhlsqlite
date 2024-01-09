@@ -189,7 +189,7 @@
           "easternUTCOffset": "-05:00",
           "venueUTCOffset": "-06:00",
           "venueTimezone": "US/Central",
-          "gameState": "FINAL",
+          "gameState": "OFF",
           "gameScheduleState": "OK",
           "tvBroadcasts": [
             {
@@ -258,6 +258,7 @@
               "default": "Hintz"
             }
           },
+          "threeMinRecap": "/video/recap-stars-at-wild-1-8-24-6344518493112",
           "gameCenterLink": "/gamecenter/dal-vs-min/2024/01/08/2023020623"
         },
         {
@@ -272,7 +273,7 @@
           "easternUTCOffset": "-05:00",
           "venueUTCOffset": "-07:00",
           "venueTimezone": "America/Denver",
-          "gameState": "LIVE",
+          "gameState": "FINAL",
           "gameScheduleState": "OK",
           "tvBroadcasts": [
             {
@@ -309,8 +310,7 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20232024/BOS-radio.m3u8",
-            "score": 2
+            "score": 3
           },
           "homeTeam": {
             "id": 21,
@@ -321,12 +321,14 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20232024/COL-radio.m3u8",
-            "score": 3
+            "score": 4
           },
           "periodDescriptor": {
-            "number": 2,
-            "periodType": "REG"
+            "number": 5,
+            "periodType": "SO"
+          },
+          "gameOutcome": {
+            "lastPeriodType": "SO"
           },
           "gameCenterLink": "/gamecenter/bos-vs-col/2024/01/08/2023020624"
         }
@@ -374,7 +376,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20232024/SEA-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20232024/SEA-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "3.9200"
+              },
+              {
+                "providerId": 2,
+                "value": "160.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-108.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-108.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 7,
@@ -385,7 +405,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20232024/BUF-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20232024/BUF-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "3.9200"
+              },
+              {
+                "providerId": 2,
+                "value": "135.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-112.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-112.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/event/00005EDACAA9571D?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PAGE_LINK_GM19&utm_source=nhl.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PAGE_LINK_GM19",
@@ -434,7 +472,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20232024/LAK-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20232024/LAK-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "3.9300"
+              },
+              {
+                "providerId": 2,
+                "value": "143.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-115.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-115.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 14,
@@ -445,7 +501,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20232024/TBL-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20232024/TBL-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "3.9300"
+              },
+              {
+                "providerId": 2,
+                "value": "150.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-105.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-105.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.nhl.com/lightning/tickets/",
@@ -488,7 +562,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20232024/SJS-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20232024/SJS-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.8400"
+              },
+              {
+                "providerId": 2,
+                "value": "500.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "350.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "349.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 10,
@@ -499,7 +591,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20232024/TOR-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20232024/TOR-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.8400"
+              },
+              {
+                "providerId": 2,
+                "value": "-240.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-455.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-453.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.nhl.com/mapleleafs/tickets/",
@@ -542,7 +652,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20232024/VAN-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20232024/VAN-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "3.9100"
+              },
+              {
+                "providerId": 2,
+                "value": "165.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "110.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "110.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 2,
@@ -553,7 +681,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20232024/NYI-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20232024/NYI-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "3.9100"
+              },
+              {
+                "providerId": 2,
+                "value": "130.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-130.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-130.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/event/30005EDCBDB52D5C?brand=nhl&wt.mc_id=NHL_LEAGUE_NYI_SCHED_PAGE_LINK_GM21&utm_source=nhl.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NYI&utm_content=SCHED_PAGE_LINK_GM21",
@@ -602,7 +748,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20232024/ANA-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20232024/ANA-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.4800"
+              },
+              {
+                "providerId": 2,
+                "value": "300.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "195.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "191.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 18,
@@ -613,7 +777,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20232024/NSH-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20232024/NSH-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.4800"
+              },
+              {
+                "providerId": 2,
+                "value": "-141.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-238.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-236.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/nashville-predators-vs-anaheim-ducks-nashville-tennessee-01-09-2024/event/1B005EF1C4D53FF3?brand=predators&landing=s&wt.mc_id=NHL_TEAM_NSH_SINGLE_GAME_TICKETS_PAGE_GM23&CAMEFROM=CFC_PREDATORS_WEB_SINGLEGAME_PREDSWEBSITESINGLEGAMEZG&_ga=2.249910534.1498183413.1693233228-1348356427.1683143766",
@@ -657,7 +839,21 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20232024/FLA-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20232024/FLA-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.0400"
+              },
+              {
+                "providerId": 9,
+                "value": "-175.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-176.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 19,
@@ -668,7 +864,21 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20232024/STL-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20232024/STL-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.0400"
+              },
+              {
+                "providerId": 9,
+                "value": "145.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "146.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/event/06005EDABF3E3A5E?brand=nhl&wt.mc_id=NHL_LEAGUE_STL_SCHED_PAGE_LINK_GM19&utm_source=nhl.com&utm_medium=client&utm_campaign=NHL_LEAGUE_STL&utm_content=SCHED_PAGE_LINK_GM19",
@@ -711,7 +921,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20232024/CBJ-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20232024/CBJ-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.5000"
+              },
+              {
+                "providerId": 2,
+                "value": "340.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "210.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "213.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 52,
@@ -722,7 +950,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20232024/WPG-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20232024/WPG-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.5000"
+              },
+              {
+                "providerId": 2,
+                "value": "-150.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-258.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-263.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.ca/event/11005F1DBA2F4114",
@@ -795,7 +1041,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20232024/EDM-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20232024/EDM-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "5.2800"
+              },
+              {
+                "providerId": 2,
+                "value": "-225.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-395.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-397.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 16,
@@ -806,7 +1070,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20232024/CHI-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20232024/CHI-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "5.2800"
+              },
+              {
+                "providerId": 2,
+                "value": "460.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "310.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "308.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/event/04005EDC97981377?brand=nhl&wt.mc_id=NHL_LEAGUE_CHI_SCHED_PAGE_LINK_GM19&utm_source=nhl.com&utm_medium=client&utm_campaign=NHL_LEAGUE_CHI&utm_content=SCHED_PAGE_LINK_GM19",
@@ -855,7 +1137,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20232024/BOS-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20232024/BOS-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.5800"
+              },
+              {
+                "providerId": 2,
+                "value": "105.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-162.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-160.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 53,
@@ -866,7 +1166,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/ARI_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ARI_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ARI/20232024/ARI-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ARI/20232024/ARI-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.5800"
+              },
+              {
+                "providerId": 2,
+                "value": "205.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "136.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "134.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/event/19005EEA7F7E0C9F?brand=nhl&wt.mc_id=NHL_LEAGUE_ARI_SCHED_PAGE_LINK_GM21&utm_source=nhl.com&utm_medium=client&utm_campaign=NHL_LEAGUE_ARI&utm_content=SCHED_PAGE_LINK_GM21",
@@ -915,7 +1233,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
             "awaySplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20232024/OTT-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20232024/OTT-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.0500"
+              },
+              {
+                "providerId": 2,
+                "value": "180.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "114.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "111.0000"
+              }
+            ]
           },
           "homeTeam": {
             "id": 20,
@@ -926,7 +1262,25 @@
             "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
             "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
             "homeSplitSquad": false,
-            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20232024/CGY-radio.m3u8"
+            "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20232024/CGY-radio.m3u8",
+            "odds": [
+              {
+                "providerId": 3,
+                "value": "4.0500"
+              },
+              {
+                "providerId": 2,
+                "value": "120.0000"
+              },
+              {
+                "providerId": 9,
+                "value": "-135.0000"
+              },
+              {
+                "providerId": 8,
+                "value": "-131.0000"
+              }
+            ]
           },
           "periodDescriptor": {},
           "ticketsLink": "https://www.ticketmaster.com/event/11005EF4C04F31BC?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PAGE_LINK_GM18&utm_source=nhl.com&utm_medium=client&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PAGE_LINK_GM18",
