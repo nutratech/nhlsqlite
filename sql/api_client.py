@@ -22,7 +22,7 @@ class ApiClient:
     def get(self, endpoint: str, params: dict = None) -> dict:
         """GET request to NHL API"""
         response = requests.get(
-            f"{self.url}/{endpoint}", headers=self.headers, params=params
+            f"{self.url}/{endpoint}", headers=self.headers, params=params, timeout=10,
         )
         return dict(json.loads(response.text))
 

@@ -21,8 +21,7 @@ def build_db(verbose: bool = False) -> bool:
         os.remove(OUTPUT_DB_NAME)
 
     if verbose:
-        # pylint: disable=consider-using-f-string
-        print("\nPack %s" % OUTPUT_DB_NAME)
+        print(f"\nPack {OUTPUT_DB_NAME}")
     con = sqlite3.connect(OUTPUT_DB_NAME)
     cur = con.cursor()
 
@@ -38,23 +37,21 @@ def build_db(verbose: bool = False) -> bool:
             continue
         table_name = os.path.splitext(os.path.basename(file_path))[0]
         file_path_full = os.path.join("data", file_path)
-        # print(table_name)
 
         # Loop over CSV files
         with open(file_path_full, encoding="utf-8") as csv_file:
             dict_reader = csv.DictReader(csv_file)
             # Skip empty CSV files
             if not dict_reader.fieldnames:
-                print(f"    WARN: empty CSV? {file_path_full}")
+                print(f"WARN: empty CSV? {file_path_full}")
                 continue
+            # Build values string (not best practice, use parametrized queries instead)
             values = ",".join("?" * len(dict_reader.fieldnames or []))
             reader = csv.reader(csv_file)
-            # pylint: disable=consider-using-f-string
-            query = "INSERT INTO {0} VALUES ({1});".format(  # nosec: B608
-                table_name, values
-            )
-            # print(query)
-            # exit()
+            query = f"INSERT INTO {table_name} VALUES ({values});"  # nosec: B608
+            if verbose:
+                print(f"     {query}")
+
             cur.executemany(query, reader)
 
     cur.close()
